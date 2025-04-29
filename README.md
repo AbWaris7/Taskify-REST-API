@@ -80,7 +80,4 @@ All endpoints are protected with **Spring Security**, using **JWT** for authenti
 - **Lombok**
 - **Maven**
 
----
-
-## 🧱 Project Structure
 
