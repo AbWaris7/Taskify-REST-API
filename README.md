@@ -1,4 +1,4 @@
-# 🧑‍💼 Employee /Admin Taskify REST API Application
+# 🧑‍💼 Employee / Admin Taskify REST API Application
 
 A secure and professional real-time RESTful web application built with **Spring Boot 3**, **Spring Security**, **JWT**, **Spring Data JPA**, and **MySQL**. This project implements user registration, authentication, and role-based authorization (User/Admin), with a fully functional to-do management system for employees and privileged admin controls.
 
