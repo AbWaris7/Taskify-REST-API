@@ -8,13 +8,13 @@ import io.jsonwebtoken.security.Keys;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Service;
 
-import javax.crypto.spec.SecretKeySpec;
 import java.security.Key;
 import java.util.Date;
 import java.util.Map;
 import java.util.function.Function;
-
+@Service
 public class JwtServiceImpl implements JwtService {
 
     @Value("${spring.jwt.secret}")
